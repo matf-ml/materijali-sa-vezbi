@@ -1,1 +1,0 @@
-data_stacked = data_stacked.drop(['date', 'level_1'], axis=1)

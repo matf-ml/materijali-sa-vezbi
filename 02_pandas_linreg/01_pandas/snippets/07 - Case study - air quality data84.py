@@ -1,1 +1,0 @@
-box = data_pivoted.boxplot()

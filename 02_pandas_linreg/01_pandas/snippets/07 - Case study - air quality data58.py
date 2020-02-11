@@ -1,1 +1,0 @@
-data.groupby('month').mean()

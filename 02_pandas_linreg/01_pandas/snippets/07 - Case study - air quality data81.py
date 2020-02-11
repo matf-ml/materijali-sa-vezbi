@@ -1,1 +1,0 @@
-data = data.drop(['weekday', 'weekend'], axis=1)

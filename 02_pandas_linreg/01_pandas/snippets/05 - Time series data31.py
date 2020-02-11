@@ -1,1 +1,0 @@
-daily = data['FR04037'].resample('D').mean()

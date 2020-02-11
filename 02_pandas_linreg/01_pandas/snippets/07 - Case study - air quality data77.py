@@ -1,1 +1,0 @@
-data['weekend'] = data['weekday'].isin([5, 6])

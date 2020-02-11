@@ -1,1 +1,0 @@
-data = data.set_index('date')

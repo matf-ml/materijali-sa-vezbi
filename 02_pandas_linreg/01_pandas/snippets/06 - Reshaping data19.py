@@ -1,1 +1,0 @@
-data_stacked = data.stack()
