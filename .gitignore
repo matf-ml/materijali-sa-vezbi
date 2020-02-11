@@ -102,3 +102,18 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# labs 2018/2019
+/02_pandas_linreg
+/03_klasifikacija
+/04_klasifikacija_kerneli
+/05_ansambli
+/06_evaluacija
+/07_optimizacija_neuronske_mreze
+/08_nebalansirano_ucenje_konvolutivne_mreze
+/09_rekurentne_mreze
+/10_nenadgledano_ucenje
+/11_gan
+/12_priprema_ispit
+/13_vezbanje_za_ispit

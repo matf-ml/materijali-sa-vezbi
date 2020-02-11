@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.0"
+	width="140"
+	height="460"
+	xml:space="preserve"
+	style="font-family:verdana;font-size:12pt;font-style:oblique;">
+<desc>Unit circles in the plane using different norms.</desc>
+<defs>
+	<g id="axis">
+		<line x1="-70" y1="0" x2="70" y2="0"
+			style="fill:none;stroke:#000000;stroke-width:1pt;"/>
+		<path d="M 60 -5 L 70 0 L 60 5"
+			style="fill:none;stroke:#000000;stroke-width:1pt;"/>
+	</g>
+	<line id="vert" x1="0" y1="-13" x2="0" y2="3"
+		style="fill:none;stroke:#000000;stroke-width:1pt;"/>
+	<g id="coordinate-system">
+		<use xlink:href="#axis" />
+		<use xlink:href="#axis" transform="rotate(-90)" />
+		<!-- This writes "||x||". Subscripts are added later -->
+		<use xlink:href="#vert" transform="translate(27 -50)" />
+		<use xlink:href="#vert" transform="translate(30 -50)" />
+		<text x="36" y="-50" style="text-anchor:middle;">x</text>
+		<use xlink:href="#vert" transform="translate(42 -50)" />
+		<use xlink:href="#vert" transform="translate(45 -50)" />
+	</g>
+</defs>
+
+<!-- First coordinate system -->
+<g transform="translate(70 70)" >
+	<use xlink:href="#coordinate-system" />
+	<text x="46" y="-43" style="font-size:10pt;font-style:normal;">1</text>
+	<path d="M 40 0 L 0 -40 L -40 0 L 0 40 L 40 0"
+		style="fill:none;stroke:#000000;stroke-width:1pt;"/>
+</g>
+
+<!-- Second coordinate system -->
+<g transform="translate(70 230)" >
+	<use xlink:href="#coordinate-system" />
+	<text x="46" y="-43" style="font-size:10pt;font-style:normal;">2</text>
+	<ellipse cx="0" cy="0" rx="40" ry="40"
+		style="fill:none;stroke:#000000;stroke-width:1pt;" />
+</g>
+
+<!-- Third coordinate system -->
+<g transform="translate(70 390)" >
+	<use xlink:href="#coordinate-system" />
+	<text x="46" y="-43" style="font-size:10pt;">&#8734;</text>
+	<rect x="-40" y="-40" width="80" height="80"
+		style="fill:none;stroke:#000000;stroke-width:1pt;" />
+</g>
+
+</svg>
