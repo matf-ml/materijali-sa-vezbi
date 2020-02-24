@@ -1,34 +1,26 @@
 # Vezbe 01 - uvod
 
 ## Python
+U zajednici koja se bavi mašinskim učenjem postoji puno okruženja i biblioteka koje se koriste. Programski jezik Python i Python-orijentisane biblioteke ipak dobijaju najviše pažnje pa je stoga i izbor tehnologija koje se obrađuju na ovom kursu baziran na ovom jeziku. Verzija jezika sa kojom ćemo raditi je Python 3.8. 
+Predlaženo da posetite i [zvanični sajt](https://www.python.org/) Python jezika i neki od [RealPython](https://realpython.com/) tutoriala ukoliko se prvi put susrećete sa ovim jezikom.
 
-### Jupyter notebook
-[Jupyter notebook](https://jupyter.org/) je open source veb aplikacija koja omogućava interaktivno pisanje i pokretanje Python koda.
-Instalira se kao python paket koristeći `pip`.
+## Anacoda 
+[Anaconda](https://www.anaconda.com/distribution/) je platforma koja se koristi u zajednici koja se bavi mašinskim učenjem i naukom o podacima. Omogućava jednostavno kreiranje okruženja za rad i laku instalaciju, ažuriranje i brisanje paketa. Mnogi paketi koje ćemo koristiti na kursu će već biti dostupni u okviru Anaconda platforme. 
 
-Najpre, potrebno je instalirati pip za python 3. U zavisnosti od sistema koji koristite varira i instalacija.
-Za Ubuntu sledi primer instaliranja.
+Za informacije o instalaciji pogledajte [zvaničnu stranu](https://www.anaconda.com/distribution/#download-section). 
 
-Ubuntu:
-```bash
-sudo apt-get install python-pip3
-```
-
-Potom instalirati jupyter paket.
+## Jupyter notebook
+[Jupyter notebook](https://jupyter.org/) je veb aplikacija koja omogućava interaktivno pisanje i pokretanje Python koda. Da bi se pokrenula, potrebno je iz terminala pozicionirati se u željeni koreni direktorijum za rad i pokrenuti Jupyter. Na primer:
 
 ```bash
-sudo pip3 install jupyter
+cd /home/ml/
+mkdir ml-labs
+cd ml-labs
+conda jupyter notebook
 ```
-
-Dalje je potrebno pozicionirati se u direktorijum koji želite da bude koreni direktorijum za jupyter pre početka rada, na primer:
-
-```bash
-cd /home/vi/
-mkdir jupyter-test
-cd jupyter-test
-jupyter notebook
-```
-Naredba `jupyter notebook` će pokrenuti jupyter server u konzoli gde je ukucana i istovremenmo pokrenuti podrazumevani
-veb pregledač koji će povezati na (verovatno) na `localhost:8888`.
+Naredba `conda jupyter notebook` će otvoriti koreni direktorijum u veb pregledaču, verovatno na adresi koja je oblika `localhost:8888`.
 
 
+## Virtuelna mašina
+
+Na časovima će se koristiti virtuelna mašina `matf-artificial-inteligence`. Korisničko ime je `student` (nije potrebna lozinka). 
