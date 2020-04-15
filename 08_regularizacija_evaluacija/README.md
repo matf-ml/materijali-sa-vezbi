@@ -1,4 +1,4 @@
-# Vežbe 07
+# Vežbe 08
 
 Ovaj čas je posvećen dvema važnim temama mašinskog učenja: selekciji i evaluaciji modela mašinskog učenja i različitim tehnikama regularizacije modela. 
 
