@@ -6,4 +6,6 @@ Sveska `01` se tiče metodologije kreiranja modela i evaluacije modela. Sveska `
 
 Sveska `03` uvodi različite vidove regularizacije, dok sveska `04` na jednom primeru čestom u praksi ukazuje na neke razlike između njih. 
 
+Zanimljiv [post](https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html) za čitanje o ovoj temi.
+
 Pitanja za diskusiju su vrlo dobrodošla i mogu se ostaviti u [deljenom dokumentu](https://docs.google.com/document/d/1lJX3Q6ycAXMLgGagqKnWTR4SQoKGhCodrH8cCgL58Ws/edit?usp=sharing).
