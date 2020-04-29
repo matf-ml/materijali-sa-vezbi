@@ -1,4 +1,4 @@
-# Vežbe 08
+# Vežbe 09
 
 Ovaj čas posvećen je biblioteci za rad sa neuronskim mrežama [Keras](https://keras.io/) i upoznavanju njenog APIja. 
 
